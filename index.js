@@ -28,3 +28,7 @@
     }, function () {
       document.getElementById('pos').innerHTML = 'Deine Position konnte leider nicht ermittelt werden';
     });
+
+    function initMap(params) {
+
+    }
