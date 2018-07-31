@@ -2,8 +2,9 @@
 
  function initialize(coords) {
       var latlng = new google.maps.LatLng(coords.latitude, coords.longitude);
-    //  var latlngRom = new google.maps.LatLng('12.4963655', '41.9027835')
-      var myOptions = {
+  var latlngRom = new google.maps.LatLng(-25,131);
+
+    var myOptions = {
         zoom: 8,
         center: latlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -16,11 +17,17 @@
         title: "Hier bist du :)"
       });
 
-   /*   var markerRom = new.maps.Marker({
-        position: latlngRom,
-        map: map,
-        title: "Das ist dein Ziel, ROM!"
-      })*/
+
+
+       // var myLatLng = {lat: -25.363, lng: 131.044};
+
+
+        var markerRom = new google.maps.Marker({
+          position: latlngRom,
+          map: map,
+          title: 'Hello World!'
+        });
+
     }
 
     navigator.geolocation.getCurrentPosition(function (position) {
@@ -29,6 +36,6 @@
       document.getElementById('pos').innerHTML = 'Deine Position konnte leider nicht ermittelt werden';
     });
 
-    function initMap(params) {
+     function initMap(params) {
 
-    }
+     }
