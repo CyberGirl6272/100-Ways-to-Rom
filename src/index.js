@@ -31,13 +31,6 @@ function calculateAndDisplayRoute() {
   const randomIndex = Math.floor(Math.random() * 99);
   const randomWaypoint = waypoints[randomIndex];
   console.log(randomWaypoint.location);
-  // const randomWaypoint = {
-  //   location: {
-  //     lat: 48,
-  //     lng: 16
-  //   },
-  //   stopover: true
-  // };
 
   navigator.geolocation.getCurrentPosition(position => {
     const origin = new google.maps.LatLng(
