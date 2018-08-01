@@ -13,6 +13,7 @@ function initMap() {
 }
 
 
+
   function calculateAndDisplayRoute() {
     navigator.geolocation.getCurrentPosition(function (position) {
       console.log('got position')

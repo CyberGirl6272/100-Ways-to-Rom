@@ -1,0 +1,32 @@
+{
+  "name": "100-Ways-to-Rom",
+  "version": "1.0.0",
+  "description": "https://boring-leakey-59b109.netlify.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxMaraGarciaxx/100-Ways-to-Rom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxMaraGarciaxx/100-Ways-to-Rom/issues"
+  },
+  "homepage": "https://github.com/xxMaraGarciaxx/100-Ways-to-Rom#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.13.0",
+    "prettier": "^1.14.0"
+  }
+}
